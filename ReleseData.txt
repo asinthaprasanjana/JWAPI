@@ -1,0 +1,153 @@
+-----------------
+ MultipurposeTag Table Data
+
+ 1	1	StockManagement	Stock Issued	Issued	1	Ruchika	2018-01-01
+2	1	StockManagement	partially recieved	partilly recieved	2	Ruchika	2018-01-01
+3	1	StockManagement	fully recieved	fully recieved	1	Ruchika	2018-01-01
+4	1	StockManagement	partially billed	partially billed	2	Ruchika	2018-01-01
+5	1	StockManagement	fully billed 	fully billed 	1	Ruchika	2018-01-01
+6	2	Approval management	No need Approval	No approval 	0	Ruchika	2019-01-06
+7	2	Approval management	Need Approval	 Approval 	1	Ruchika	2019-01-06
+8	2	Approval Status	No need Approval	No need approval 	0	Ruchika	2019-01-06
+9	2	Approval Status	Approval pending	Approval pending	1	Ruchika	2019-01-06
+10	2	Approval Status	Approved	Approved	2	Ruchika	2019-01-06
+11	2	Approval Status	Rejected	Rejected	3	Ruchika	2019-01-06
+12	3	SalesManagement	Invoiced	Invoiced	1	Pasiya	2019-01-14
+13	3	SalesManagement	ReturnedAll	ReturnedAll	2	Pasiya	2019-01-14
+14	3	SalesManagemment	PartiallyReturned	PartiallyReturned	3	Pasiya	2019-01-14
+15	3	SalesManagement	Pending	Pending	0	Pasiya	2019-01-14
+16	3	SalesManagement	Partially Invoiced	Partially Invoiced	4	Pasiya	2019-03-15
+34	3	SalesManagement	Proforma Invoiced	Proforma Invoiced	5	Pasiya	2019-04-10
+35	1	StockManagement	StockTransferStatus	Pending	0	hansaka	2019-01-12
+36	1	StockManagement	StockTransferStatus	Accepted	1	hansaka	2019-01-12
+37	1	StockManagement	StockTransferStatus	Rejected	2	hansaka	2019-01-12
+38	2	Approval Types	Purchase Order Approval	Purchase Order Approval	1	Ruchika	2019-02-06
+39	2	Approval Types	Stock Transfer Approval	Stock Transfer Approval	2	Ruchika	2019-02-06
+40	2	Approval Types	Stock Adjusment Approval	Stock Adjusment Approval	3	Ruchika	2019-02-06
+41	2	Approval Types	Stock Transfer Approval	Stock Transfer Approval	2	Ruchika	2019-02-06
+42	4	BusinessPartner	BusinessPartner Types	Supplier/Vendor	1	Ruchika	2019-02-06
+43	4	BusinessPartner	BusinessPartner Types	Customer	2	Ruchika	2019-02-06
+44	6	Stock Transactions 	Stock Transfer	Strock Transfer	2	hansaka	2019-02-06
+45	6	Stock Transactions	Stock Adjusment	Stock Adjusment	3	hansaka	2019-02-06
+46	5	Cashier	PaymentTypes	Refer The Payment Method Table	0	Pasindu	2019-02-07
+47	6	Stock Transactions	Stock Recieve	Stock Recieve	4	Ruchika	2019-02-06
+48	7	NotificationTypes	Stock Transfer	Stock Transfer	1	hansaka	2019-02-25
+49	8	Cancellation	Stock Transfer	Stock Transfer Cancelation	1	hansaka	2019-02-12
+50	8	Cancellation	Bill Payment	Bill Payment Cancelation	2	hansaka	2019-02-12
+51	8	Cancellation	Purchase Order	Purchase Order Cancelation	3	hansaka	2019-02-12
+53	9	DocumentTypes	PurchaseOrder	Purchase Order	1	Ruchika	2019-04-25
+54	9	DocumentTypes	Temporary Recieve	Temporary Recieve	2	Ruchika	2019-04-25
+55	9	DocumentTypes	Quality Control	Quality Control	3	Ruchika	2019-04-25
+56	9	DocumentTypes	Stock Recieve Note	Stock Recieve Note	4	Ruchika	2019-04-25
+57	9	DocumentTypes	PurchaseOrder Billing	PurchaseOrder Billing	5	Ruchika	2019-04-25
+58	9	DocumentTypes	Stock Transfer	Stock Transfer	6	Ruchika	2019-04-25
+59	9	DocumentTypes	Stock Adjusment	Stock Adjusment	7	Ruchika	2019-04-25
+NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+
+
+
+-------------------------------------------------------
+
+14 - 05 - 2019
+
+1	1	StockManagement	Stock Issued	Issued	1	Ruchika	2018-01-01
+2	1	StockManagement	partially recieved	partilly recieved	2	Ruchika	2018-01-01
+3	1	StockManagement	fully recieved	fully recieved	1	Ruchika	2018-01-01
+4	1	StockManagement	partially billed	partially billed	2	Ruchika	2018-01-01
+5	1	StockManagement	fully billed 	fully billed 	1	Ruchika	2018-01-01
+6	2	Approval management	No need Approval	No approval 	0	Ruchika	2019-01-06
+7	2	Approval management	Need Approval	 Approval 	1	Ruchika	2019-01-06
+8	2	Approval Status	No need Approval	No need approval 	0	Ruchika	2019-01-06
+9	2	Approval Status	Approval pending	Approval pending	1	Ruchika	2019-01-06
+10	2	Approval Status	Approved	Approved	2	Ruchika	2019-01-06
+11	2	Approval Status	Rejected	Rejected	3	Ruchika	2019-01-06
+12	3	SalesManagement	Invoiced	Invoiced	1	Pasiya	2019-01-14
+13	3	SalesManagement	ReturnedAll	ReturnedAll	2	Pasiya	2019-01-14
+14	3	SalesManagemment	PartiallyReturned	PartiallyReturned	3	Pasiya	2019-01-14
+15	3	SalesManagement	Pending	Pending	0	Pasiya	2019-01-14
+16	3	SalesManagement	Partially Invoiced	Partially Invoiced	4	Pasiya	2019-03-15
+34	3	SalesManagement	Proforma Invoiced	Proforma Invoiced	5	Pasiya	2019-04-10
+35	1	StockManagement	StockTransferStatus	Pending	0	hansaka	2019-01-12
+36	1	StockManagement	StockTransferStatus	Accepted	1	hansaka	2019-01-12
+37	1	StockManagement	StockTransferStatus	Rejected	2	hansaka	2019-01-12
+38	2	Approval Types	Purchase Order Approval	Purchase Order Approval	1	Ruchika	2019-02-06
+39	2	Approval Types	Stock Transfer Approval	Stock Transfer Approval	2	Ruchika	2019-02-06
+40	2	Approval Types	Stock Adjusment Approval	Stock Adjusment Approval	3	Ruchika	2019-02-06
+41	2	Approval Types	Stock Transfer Approval	Stock Transfer Approval	2	Ruchika	2019-02-06
+42	4	BusinessPartner	BusinessPartner Types	Supplier/Vendor	1	Ruchika	2019-02-06
+43	4	BusinessPartner	BusinessPartner Types	Customer	2	Ruchika	2019-02-06
+44	6	Stock Transactions 	Stock Transfer	Strock Transfer	2	hansaka	2019-02-06
+45	6	Stock Transactions	Stock Adjusment	Stock Adjusment	3	hansaka	2019-02-06
+46	5	Cashier	PaymentTypes	Refer The Payment Method Table	0	Pasindu	2019-02-07
+47	6	Stock Transactions	Stock Recieve	Stock Recieve	4	Ruchika	2019-02-06
+48	7	NotificationTypes	Stock Transfer	Stock Transfer	1	hansaka	2019-02-25
+49	8	Cancellation	Stock Transfer	Stock Transfer Cancelation	1	hansaka	2019-02-12
+50	8	Cancellation	Bill Payment	Bill Payment Cancelation	2	hansaka	2019-02-12
+51	8	Cancellation	Purchase Order	Purchase Order Cancelation	3	hansaka	2019-02-12
+53	9	DocumentTypes	PurchaseOrder	Purchase Order	1	Ruchika	2019-04-25
+54	9	DocumentTypes	Temporary Recieve	Temporary Recieve	2	Ruchika	2019-04-25
+55	9	DocumentTypes	Quality Control	Quality Control	3	Ruchika	2019-04-25
+56	9	DocumentTypes	Stock Recieve Note	Stock Recieve Note	4	Ruchika	2019-04-25
+57	9	DocumentTypes	PurchaseOrder Billing	PurchaseOrder Billing	5	Ruchika	2019-04-25
+58	9	DocumentTypes	Stock Transfer	Stock Transfer	6	Ruchika	2019-04-25
+59	9	DocumentTypes	Stock Adjusment	Stock Adjusment	7	Ruchika	2019-04-25
+62	1	Recieve Types	QC	QC	1	Ruchika	2019-05-13
+63	1	Recieve Types	Fully Temp Recieve	Fully Temp Recieve	1	Ruchika	2019-05-13
+64	1	Recieve Types	Orginal Recieve	Orginal Recieve	3	Ruchika	2019-05-13
+65	1	Recieve Types	Partially Temp Recieve	Partially Temp Recieve	2	Ruchika	2019-05-13
+NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+
+
+
+----------- 13/06/2019
+
+1	1	StockManagement	Stock Issued	Issued	1	Ruchika	2018-01-01
+2	1	StockManagement	partially recieved	partilly recieved	2	Ruchika	2018-01-01
+3	1	StockManagement	fully recieved	fully recieved	1	Ruchika	2018-01-01
+4	1	StockManagement	partially billed	partially billed	2	Ruchika	2018-01-01
+5	1	StockManagement	fully billed 	fully billed 	1	Ruchika	2018-01-01
+6	2	Approval management	No need Approval	No approval 	0	Ruchika	2019-01-06
+7	2	Approval management	Need Approval	 Approval 	1	Ruchika	2019-01-06
+8	2	Approval Status	No need Approval	No need approval 	0	Ruchika	2019-01-06
+9	2	Approval Status	Approval pending	Approval pending	1	Ruchika	2019-01-06
+10	2	Approval Status	Approved	Approved	2	Ruchika	2019-01-06
+11	2	Approval Status	Rejected	Rejected	3	Ruchika	2019-01-06
+12	3	SalesManagement	Invoiced	Invoiced	1	Pasiya	2019-01-14
+13	3	SalesManagement	ReturnedAll	ReturnedAll	2	Pasiya	2019-01-14
+14	3	SalesManagemment	PartiallyReturned	PartiallyReturned	3	Pasiya	2019-01-14
+15	3	SalesManagement	Pending	Pending	0	Pasiya	2019-01-14
+16	3	SalesManagement	Partially Invoiced	Partially Invoiced	4	Pasiya	2019-03-15
+34	3	SalesManagement	Proforma Invoiced	Proforma Invoiced	5	Pasiya	2019-04-10
+35	1	StockManagement	StockTransferStatus	Pending	0	hansaka	2019-01-12
+36	1	StockManagement	StockTransferStatus	Accepted	1	hansaka	2019-01-12
+37	1	StockManagement	StockTransferStatus	Rejected	2	hansaka	2019-01-12
+38	2	Approval Types	Purchase Order Approval	Purchase Order Approval	1	Ruchika	2019-02-06
+39	2	Approval Types	Stock Transfer Approval	Stock Transfer Approval	2	Ruchika	2019-02-06
+40	2	Approval Types	Stock Adjusment Approval	Stock Adjusment Approval	3	Ruchika	2019-02-06
+41	2	Approval Types	Stock Transfer Approval	Stock Transfer Approval	2	Ruchika	2019-02-06
+42	4	BusinessPartner	BusinessPartner Types	Supplier/Vendor	1	Ruchika	2019-02-06
+43	4	BusinessPartner	BusinessPartner Types	Customer	2	Ruchika	2019-02-06
+44	6	Stock Transactions 	Stock Transfer	Strock Transfer	2	hansaka	2019-02-06
+45	6	Stock Transactions	Stock Adjusment	Stock Adjusment	3	hansaka	2019-02-06
+46	5	Cashier	PaymentTypes	Refer The Payment Method Table	0	Pasindu	2019-02-07
+47	6	Stock Transactions	Stock Recieve	Stock Recieve	4	Ruchika	2019-02-06
+48	7	NotificationTypes	Stock Transfer	Stock Transfer	1	hansaka	2019-02-25
+49	8	Cancellation	Stock Transfer	Stock Transfer Cancelation	1	hansaka	2019-02-12
+50	8	Cancellation	Bill Payment	Bill Payment Cancelation	2	hansaka	2019-02-12
+51	8	Cancellation	Purchase Order	Purchase Order Cancelation	3	hansaka	2019-02-12
+53	9	DocumentTypes	PurchaseOrder	Purchase Order	1	Ruchika	2019-04-25
+54	9	DocumentTypes	Temporary Recieve	Temporary Recieve	2	Ruchika	2019-04-25
+55	9	DocumentTypes	Quality Control	Quality Control	3	Ruchika	2019-04-25
+56	9	DocumentTypes	Stock Recieve Note	Stock Recieve Note	4	Ruchika	2019-04-25
+57	9	DocumentTypes	PurchaseOrder Billing	PurchaseOrder Billing	5	Ruchika	2019-04-25
+58	9	DocumentTypes	Stock Transfer	Stock Transfer	6	Ruchika	2019-04-25
+59	9	DocumentTypes	Stock Adjusment	Stock Adjusment	7	Ruchika	2019-04-25
+62	1	Recieve Types	QC	QC	1	Ruchika	2019-05-13
+63	1	Recieve Types	Fully Temp Recieve	Fully Temp Recieve	1	Ruchika	2019-05-13
+64	1	Recieve Types	Orginal Recieve	Orginal Recieve	3	Ruchika	2019-05-13
+65	1	Recieve Types	Partially Temp Recieve	Partially Temp Recieve	2	Ruchika	2019-05-13
+66	9	DocumentTypes	Supplier Payment	Supplier Payment	8	Ruchika	2019-04-25
+67	9	DocumentTypes	Customer Payment	Customer  Payment	9	Ruchika	2019-04-25
+72	10	AdvancePaymentType	Supplier Advance	Supplier Advance	1	Ruchika	2019-06-13
+73	10	AdvancePaymentType	Customer Advance	Customer  Advance	2	Ruchika	2019-06-13
+NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL

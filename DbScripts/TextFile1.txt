@@ -1,0 +1,22 @@
+﻿USE [OnimtaWebInventory]
+GO
+
+INSERT INTO [dbo].[usm.UserRoles]
+           ([PageNameList]
+           ,[CompanyId]
+           ,[RoleName]
+           ,[PageIds]
+           ,[PrivilegeIds]
+           ,[CreatedUserId]
+           ,[CreatedDateTime])
+     VALUES
+           ('hii',
+		   1,
+		   'hii',
+		   '2',
+		   '2',
+		   2,
+		   GETDATE())
+GO
+
+

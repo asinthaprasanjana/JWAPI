@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:#e5e5e5;">
+
+<div>
+
+	<div class="row col-md-12">
+		<div class="column" style="background-color:#33bb8b ; padding-top:10px;padding-left:20px">
+
+			<h3 style="color:white">Purchase Order  Ref No - {{RefNo}}  </h3>
+			<br>
+    
+		</div>
+	</div>
+
+	<div class="col-md-12 text-center" style="text-align:center;background-color:white;margin-top:5px;padding-top:25px">
+				<label style="color:#707070;font-size:24px">Your Order <b style="font-weight:bold;color:#595959">{{RefNo}}</b></label>
+	</div>
+	<div class="col-md-12 text-center" style="text-align:center;background-color:white;padding-top:10px">
+		<small style="color:#7c7c7c;font-size:14px" >Placed on {{DateTime}}</small>
+	</div>
+
+	<div class="col-md-12" style="text-align:center;background-color:white;padding-top:25px">
+		<table class="table" style="width:100%">
+			<thead>
+				<tr style="color:#707070;font-size:16px">
+					<th scope="col">Product</th>
+					<th scope="col">Item Cost</th>
+					<th scope="col">Quantity</th>
+					<th scope="col">Total Cost</th>
+					<th scope="col">Tax</th>
+					<th scope="col">Discount</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr style="color:#333333;font-size:14px; font-weight:light">
+				  <td scope="row">{{ProductName}}</td>
+				  <td scope="row">{{ItemCost}}</td>
+				  <td scope="row">{{Quantity}}</td>
+				  <td scope="row">{{TotalCost}}</td>
+				  <td scope="row">{{Tax}}</td>
+				  <td scope="row">{{Discount}}</th>
+				</tr>
+    
+			</tbody>
+		</table>
+	</div>
+
+	<div class="col-md-12" style="text-align:center;background-color:white;">
+		
+	</div>
+	
+</div>
+
+</body>
+</html>

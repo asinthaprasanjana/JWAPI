@@ -1,0 +1,13 @@
+14 - 06 - 2019   - [dbo].[ntm.NotificationSetting] Table
+
+1	1	1	Purchase order approval	Purchase Order	You have a pending approval for 	1	1	2018-01-01 00:00:00.000
+2	2	1	Stock Tranfer	Stock Tranfer	Stock Transfer has been taken placed Transfer No -	1	1	2018-01-01 00:00:00.000
+3	3	NULL	Stock Adjusment	Stock Adjusment	Stock Adjusment has been taken placed Adjusment No -	1	1	2018-01-01 00:00:00.000
+4	9	NULL	Stock Adjusment Approval	Stock Adjusment Approval	You have a pending approval for 	1	1	2018-01-01 00:00:00.000
+9	21	NULL	Sales Order Quatation	Sales Order Quatation	You have a pending approval for sales order quatation Rreference No- 	1	NULL	NULL
+10	22	NULL	Sales Order	Sales Order	You have a pending approval for sales order Rreference No- 	NULL	NULL	NULL
+11	23	NULL	Sales Invoice	Sales Invoice	You have a pending approval for sales invoice Rreference No- 	NULL	NULL	NULL
+12	100	NULL	Purchase Order Approved	Purchase Order Approved	Your purchase order has been approved by 	NULL	NULL	NULL
+13	30	NULL	Supplier Payment	Supplier Payment	A supplier Payment has been made	NULL	NULL	NULL
+14	31	NULL	Customer Payment	Customer Payment	A Customer Payment has been made	NULL	NULL	NULL
+NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL

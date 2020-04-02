@@ -1,0 +1,150 @@
+
+
+GO
+SET IDENTITY_INSERT [dbo].[msd.MultipurposeTag] ON 
+
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (1, 1, N'StockManagement', N'Stock Issued', N'Issued', 1, N'Ruchika', CAST(N'2018-01-01' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (2, 1, N'StockManagement', N'partially recieved', N'partilly recieved', 2, N'Ruchika', CAST(N'2018-01-01' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (3, 1, N'StockManagement', N'fully recieved', N'fully recieved', 1, N'Ruchika', CAST(N'2018-01-01' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (4, 1, N'StockManagement', N'partially billed', N'partially billed', 2, N'Ruchika', CAST(N'2018-01-01' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (5, 1, N'StockManagement', N'fully billed ', N'fully billed ', 1, N'Ruchika', CAST(N'2018-01-01' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (8, 2, N'Approval Status', N'No need Approval', N'No need approval ', 0, N'Ruchika', CAST(N'2019-01-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (9, 2, N'Approval Status', N'Approval pending', N'Approval pending', 1, N'Ruchika', CAST(N'2019-01-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (10, 2, N'Approval Status', N'Approved', N'Approved', 2, N'Ruchika', CAST(N'2019-01-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (11, 2, N'Approval Status', N'Rejected', N'Rejected', 3, N'Ruchika', CAST(N'2019-01-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (12, 3, N'SalesManagement', N'Invoiced', N'Invoiced', 1, N'Pasiya', CAST(N'2019-01-14' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (13, 3, N'SalesManagement', N'ReturnedAll', N'ReturnedAll', 2, N'Pasiya', CAST(N'2019-01-14' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (14, 3, N'SalesManagemment', N'PartiallyReturned', N'PartiallyReturned', 3, N'Pasiya', CAST(N'2019-01-14' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (15, 3, N'SalesManagement', N'Pending', N'Pending', 0, N'Pasiya', CAST(N'2019-01-14' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (16, 3, N'SalesManagement', N'Partially Invoiced', N'Partially Invoiced', 4, N'Pasiya', CAST(N'2019-03-15' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (34, 3, N'SalesManagement', N'Proforma Invoiced', N'Proforma Invoiced', 5, N'Pasiya', CAST(N'2019-04-10' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (35, 1, N'StockManagement', N'StockTransferStatus', N'Pending', 0, N'hansaka', CAST(N'2019-01-12' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (36, 1, N'StockManagement', N'StockTransferStatus', N'Accepted', 1, N'hansaka', CAST(N'2019-01-12' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (37, 1, N'StockManagement', N'StockTransferStatus', N'Rejected', 2, N'hansaka', CAST(N'2019-01-12' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (38, 2, N'Approval Types', N'Purchase Order Approval', N'Purchase Order Approval', 1, N'Ruchika', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (39, 2, N'Approval Types', N'Stock Transfer Approval', N'Stock Transfer Approval', 2, N'Ruchika', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (40, 2, N'Approval Types', N'Stock Adjusment Approval', N'Stock Adjusment Approval', 3, N'Ruchika', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (42, 4, N'BusinessPartner', N'BusinessPartner Types', N'Supplier/Vendor', 1, N'Ruchika', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (43, 4, N'BusinessPartner', N'BusinessPartner Types', N'Customer', 2, N'Ruchika', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (44, 6, N'Stock Transactions ', N'Stock Transfer', N'Strock Transfer', 2, N'hansaka', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (45, 6, N'Stock Transactions', N'Stock Adjusment', N'Stock Adjusment', 3, N'hansaka', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (46, 5, N'Cashier', N'PaymentTypes', N'Refer The Payment Method Table', 0, N'Pasindu', CAST(N'2019-02-07' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (47, 6, N'Stock Transactions', N'Stock Recieve', N'Stock Recieve', 4, N'Ruchika', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (48, 7, N'NotificationTypes', N'Stock Transfer', N'Stock Transfer', 1, N'hansaka', CAST(N'2019-02-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (49, 8, N'Cancellation', N'Stock Transfer', N'Stock Transfer Cancelation', 1, N'hansaka', CAST(N'2019-02-12' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (50, 8, N'Cancellation', N'Bill Payment', N'Bill Payment Cancelation', 2, N'hansaka', CAST(N'2019-02-12' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (51, 8, N'Cancellation', N'Purchase Order', N'Purchase Order Cancelation', 3, N'hansaka', CAST(N'2019-02-12' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (53, 9, N'DocumentTypes', N'PurchaseOrder', N'Purchase Order', 1, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (54, 9, N'DocumentTypes', N'Temporary Recieve', N'Temporary Recieve', 2, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (55, 9, N'DocumentTypes', N'Quality Control', N'Quality Control', 3, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (56, 9, N'DocumentTypes', N'Stock Recieve Note', N'Stock Recieve Note', 4, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (57, 9, N'DocumentTypes', N'PurchaseOrder Billing', N'PurchaseOrder Billing', 5, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (58, 9, N'DocumentTypes', N'Stock Transfer', N'Stock Transfer', 6, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (59, 9, N'DocumentTypes', N'Stock Adjusment', N'Stock Adjusment', 7, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (62, 1, N'Recieve Types', N'QC', N'QC', 1, N'Ruchika', CAST(N'2019-05-13' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (63, 1, N'Recieve Types', N'Fully Temp Recieve', N'Fully Temp Recieve', 1, N'Ruchika', CAST(N'2019-05-13' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (64, 1, N'Recieve Types', N'Orginal Recieve', N'Orginal Recieve', 3, N'Ruchika', CAST(N'2019-05-13' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (65, 1, N'Recieve Types', N'Partially Temp Recieve', N'Partially Temp Recieve', 2, N'Ruchika', CAST(N'2019-05-13' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (66, 9, N'DocumentTypes', N'Supplier Payment', N'Supplier Payment', 8, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (67, 9, N'DocumentTypes', N'Customer Payment', N'Customer  Payment', 9, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (72, 10, N'AdvancePaymentType', N'Supplier Advance', N'Supplier Advance', 1, N'Ruchika', CAST(N'2019-06-13' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (73, 10, N'AdvancePaymentType', N'Customer Advance', N'Customer  Advance', 2, N'Ruchika', CAST(N'2019-06-13' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (74, 11, N'PaymentTypes', N'PaymentTypes', N'Advance Payments', 1, N'Ruchika', CAST(N'2019-06-18' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (75, 11, N'PaymentTypes', N'PaymentTypes', N'Bank Deposit', 2, N'Ruchika', CAST(N'2019-06-18' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (76, 11, N'PaymentTypes', N'PaymentTypes', N'Cash', 3, N'Ruchika', CAST(N'2019-06-18' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (77, 11, N'PaymentTypes', N'PaymentTypes', N'Cheque', 4, N'Ruchika', CAST(N'2019-06-18' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (78, 11, N'PaymentTypes', N'PaymentTypes', N'Credit Card', 5, N'Ruchika', CAST(N'2019-06-18' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (79, 11, N'PaymentTypes', N'PaymentTypes', N'Point Redeem', 6, N'Ruchika', CAST(N'2019-06-18' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (80, 11, N'PaymentTypes', N'PaymentTypes', N'Purchase Returns', 7, N'Ruchika', CAST(N'2019-06-18' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (82, 12, N'ProductChecking', N'salesTransactionLoack', N'Sales Transaction Lock', 1, N'hansaka', CAST(N'2019-06-19' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (83, 12, N'ProductChecking', N'purchaseTransactionLock', N'Purchase Transaction Lock', 2, N'hansaka', CAST(N'2019-06-19' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (84, 12, N'ProductChecking', N'exchangeAllowed', N'Exchange ALoowed', 3, N'hansaka', CAST(N'2019-06-19' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (86, 12, N'ProductChecking', N'discountAlowed', N'Discount Allowed', 4, N'hansaka', CAST(N'2019-06-19' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (87, 12, N'ProductChecking', N'minusStock', N'Minus Stock Allowed', 5, N'hansaka', CAST(N'2019-06-19' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (89, 12, N'ProductChecking', N'freeIssue', N'Free Issue Allow', 6, N'hansaka', CAST(N'2019-06-19' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (90, 12, N'ProductChecking', N'pointsAllow', N'Points Allow', 7, N'hansaka', CAST(N'2019-06-19' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (91, 12, N'ProductChecking ', N'bargainAllow', N'Bargain Allow', 8, N'hansaka', CAST(N'2019-06-19' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (92, 9, N'DocumentTypes', N'SalesOrder', N'SalesOrder', 10, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (93, 9, N'DocumentTypes', N'SalesInvoice', N'SalesInvoice', 11, N'Ruchika', CAST(N'2019-04-25' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (94, 2, N'Approval Types', N'Sales Order', N'Sales Order', 8, N'Ruchika', CAST(N'2019-02-06' AS Date))
+INSERT [dbo].[msd.MultipurposeTag] ([Id], [ModuleId], [ModuleName], [Description], [Name], [Data], [CreatedUser], [CreatedDateTime]) VALUES (95, 2, N'Approval Types', N'Sales Invoice', N'Sales Invoice', 9, N'Ruchika', CAST(N'2019-02-06' AS Date))
+SET IDENTITY_INSERT [dbo].[msd.MultipurposeTag] OFF
+
+
+
+
+GO
+
+SET IDENTITY_INSERT [dbo].[msd.ApplicationPages] ON 
+INSERT [dbo].[msd.ApplicationPages] ([Id], [PageName], [RouterLink], [PriorityNo], [Icon], [IsMainMenu], [IsActive], [MainMenuId], [CreatedDateTime], [ExpirationDate]) VALUES (1, N'Home', N'home', 1, N'fas-fa-home', 1, 1, 0, CAST(N'2019-03-14T13:49:52.077' AS DateTime), CAST(N'2019-05-22T18:30:00.000' AS DateTime))
+INSERT [dbo].[msd.ApplicationPages] ([Id], [PageName], [RouterLink], [PriorityNo], [Icon], [IsMainMenu], [IsActive], [MainMenuId], [CreatedDateTime], [ExpirationDate]) VALUES (2, N'Dash-Board', N'dash-board', 2, N'dash-board', 1, 0, 0, CAST(N'2019-03-14T14:18:03.883' AS DateTime), CAST(N'2019-04-22T18:30:00.000' AS DateTime))
+INSERT [dbo].[msd.ApplicationPages] ([Id], [PageName], [RouterLink], [PriorityNo], [Icon], [IsMainMenu], [IsActive], [MainMenuId], [CreatedDateTime], [ExpirationDate]) VALUES (3, N'Stock-Control', N'stock-control', 3, N'stock', 1, 1, 0, CAST(N'2019-03-14T14:19:26.307' AS DateTime), CAST(N'2019-03-24T18:30:00.000' AS DateTime))
+INSERT [dbo].[msd.ApplicationPages] ([Id], [PageName], [RouterLink], [PriorityNo], [Icon], [IsMainMenu], [IsActive], [MainMenuId], [CreatedDateTime], [ExpirationDate]) VALUES (4, N'Work-Bench', N'work-bench', 4, N'work-bench', 1, 1, 0, CAST(N'2019-03-14T14:21:07.427' AS DateTime), CAST(N'2019-03-19T18:30:00.000' AS DateTime))
+INSERT [dbo].[msd.ApplicationPages] ([Id], [PageName], [RouterLink], [PriorityNo], [Icon], [IsMainMenu], [IsActive], [MainMenuId], [CreatedDateTime], [ExpirationDate]) VALUES (5, N'Stock-Takes', N'stock-takes', 2, N'st', 0, 1, 3, CAST(N'2019-03-14T14:28:53.240' AS DateTime), CAST(N'2019-03-26T18:30:00.000' AS DateTime))
+SET IDENTITY_INSERT [dbo].[msd.ApplicationPages] OFF
+
+
+
+USE [OnimtaWebInventory]
+GO
+SET IDENTITY_INSERT [dbo].[msd.ApplicationUserDetails] ON 
+INSERT [dbo].[msd.ApplicationUserDetails] ([Id], [FirstName], [LastName], [BranchID], [NicNo], [Birthday], [ExpirationDate], [MobileNo], [Email], [Address]) VALUES (15, N'admin', N'admin', 1, N'962950019v', CAST(N'2019-06-03' AS Date), CAST(N'2019-08-07' AS Date), N'767950019', N'ruchika@gmail.com', N'56 A, Piriwena rd,')
+
+SET IDENTITY_INSERT [dbo].[msd.ApplicationUserDetails] OFF
+
+
+
+SET IDENTITY_INSERT [dbo].[msd.ApplicationUserLogInDetails] ON 
+INSERT [dbo].[msd.ApplicationUserLogInDetails] ([Id], [UserId], [UserName], [Password], [RoleId], [BranchId], [IsApproved], [IsActive], [ExpireDate]) VALUES (18, 8, N'Admin', N'admin123', 1, 1, 1, 1, CAST(N'2019-04-19T20:18:48.037' AS DateTime))
+SET IDENTITY_INSERT [dbo].[msd.ApplicationUserLogInDetails] OFF
+
+
+GO
+SET IDENTITY_INSERT [dbo].[msd.BranchTypeDetails] ON 
+
+INSERT [dbo].[msd.BranchTypeDetails] ([Id], [TypeDetail]) VALUES (1, N'Head Office')
+INSERT [dbo].[msd.BranchTypeDetails] ([Id], [TypeDetail]) VALUES (2, N'Ware House')
+INSERT [dbo].[msd.BranchTypeDetails] ([Id], [TypeDetail]) VALUES (3, N'Retail Outlet')
+SET IDENTITY_INSERT [dbo].[msd.BranchTypeDetails] OFF
+
+SET IDENTITY_INSERT [dbo].[msd.DocumentTypeDetails] ON 
+
+INSERT [dbo].[msd.DocumentTypeDetails] ([Id], [DocumentTypeId], [DocumentTypeName], [Number], [Text], [CreatedUserId], [CreatedDateTime]) VALUES (2, 1, N'PurchaseOrder', N'0001', N'PO', 1, CAST(N'2019-04-25T10:31:06.390' AS DateTime))
+INSERT [dbo].[msd.DocumentTypeDetails] ([Id], [DocumentTypeId], [DocumentTypeName], [Number], [Text], [CreatedUserId], [CreatedDateTime]) VALUES (3, 1, N'PurchaseOrder', N'2048', N'PO', 1, CAST(N'2019-04-25T11:31:06.390' AS DateTime))
+INSERT [dbo].[msd.DocumentTypeDetails] ([Id], [DocumentTypeId], [DocumentTypeName], [Number], [Text], [CreatedUserId], [CreatedDateTime]) VALUES (5, 8, N'Supplier Payment', N'1012', N'SB', 1, CAST(N'2019-04-25T11:31:06.390' AS DateTime))
+INSERT [dbo].[msd.DocumentTypeDetails] ([Id], [DocumentTypeId], [DocumentTypeName], [Number], [Text], [CreatedUserId], [CreatedDateTime]) VALUES (6, 9, N'Customer Payment', N'1011', N'CB', 1, CAST(N'2019-04-25T11:31:06.390' AS DateTime))
+INSERT [dbo].[msd.DocumentTypeDetails] ([Id], [DocumentTypeId], [DocumentTypeName], [Number], [Text], [CreatedUserId], [CreatedDateTime]) VALUES (7, 5, N'Purchase Order Bill', N'1002', N'POB', 1, CAST(N'2019-06-13T13:54:17.727' AS DateTime))
+INSERT [dbo].[msd.DocumentTypeDetails] ([Id], [DocumentTypeId], [DocumentTypeName], [Number], [Text], [CreatedUserId], [CreatedDateTime]) VALUES (8, 10, N'SalesOrder', N'1005', N'SO', 1, CAST(N'2019-04-25T10:31:06.390' AS DateTime))
+INSERT [dbo].[msd.DocumentTypeDetails] ([Id], [DocumentTypeId], [DocumentTypeName], [Number], [Text], [CreatedUserId], [CreatedDateTime]) VALUES (9, 11, N'SalesInvoive', N'1010', N'SI', 1, CAST(N'2019-04-25T10:31:06.390' AS DateTime))
+SET IDENTITY_INSERT [dbo].[msd.DocumentTypeDetails] OFF
+
+
+GO
+SET IDENTITY_INSERT [dbo].[ntm.NotificationTypeDetails] ON 
+
+INSERT [dbo].[ntm.NotificationTypeDetails] ([Id], [NotificationTypeId], [NotificationType], [CompanyId], [RoleIds], [IsActive]) VALUES (1, 2, N'stockTransfers', 1, N'2,1,3,', 1)
+INSERT [dbo].[ntm.NotificationTypeDetails] ([Id], [NotificationTypeId], [NotificationType], [CompanyId], [RoleIds], [IsActive]) VALUES (2, NULL, N'stockTakes', 1, N'1,', 0)
+INSERT [dbo].[ntm.NotificationTypeDetails] ([Id], [NotificationTypeId], [NotificationType], [CompanyId], [RoleIds], [IsActive]) VALUES (3, 3, N'stockAdjustments', 1, N'2,1,', 1)
+INSERT [dbo].[ntm.NotificationTypeDetails] ([Id], [NotificationTypeId], [NotificationType], [CompanyId], [RoleIds], [IsActive]) VALUES (4, 31, N'customerPayment', 1, N'1,', 1)
+INSERT [dbo].[ntm.NotificationTypeDetails] ([Id], [NotificationTypeId], [NotificationType], [CompanyId], [RoleIds], [IsActive]) VALUES (5, 30, N'supplierPayment', 1, N'3,2,1,', 1)
+SET IDENTITY_INSERT [dbo].[ntm.NotificationTypeDetails] OFF
+
+
+SET IDENTITY_INSERT [dbo].[wkb.ApprovalTypes] ON 
+
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (1, 1, 1, N'Purchase Order Approval', 0, CAST(N'2019-06-20T17:37:28.643' AS DateTime), NULL, NULL)
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (2, 1, 2, N'Stock Tranfer Approval', 1, CAST(N'2019-06-18T23:06:12.143' AS DateTime), NULL, NULL)
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (3, 1, 3, N'Stock Adjusment Approval', 1, CAST(N'2019-06-18T23:07:24.437' AS DateTime), NULL, NULL)
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (4, 1, 4, N'New User Creation Approval', 1, CAST(N'2019-04-23T18:20:32.170' AS DateTime), NULL, NULL)
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (5, 1, 5, N'Edit User Details Approval', 1, CAST(N'2019-04-03T10:47:24.067' AS DateTime), NULL, NULL)
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (6, 1, 6, N'Removing User Details Approval', 1, CAST(N'2019-04-03T10:47:28.697' AS DateTime), NULL, NULL)
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (7, 1, 7, N'Sales Order Quatation', 1, CAST(N'2019-05-10T11:07:44.420' AS DateTime), NULL, NULL)
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (8, 1, 8, N'Sales Order', 0, CAST(N'2019-06-20T14:03:04.213' AS DateTime), NULL, NULL)
+INSERT [dbo].[wkb.ApprovalTypes] ([Id], [CompanyId], [ApprovalTypeId], [ApprovalName], [IsActive], [LastModifiedDateTime], [LastModifiedUserId], [ApprovalOfficerIds]) VALUES (9, 1, 9, N'Sales Invoice', 1, CAST(N'2019-04-10T15:37:08.740' AS DateTime), NULL, NULL)
+SET IDENTITY_INSERT [dbo].[wkb.ApprovalTypes] OFF
+
+
+ET IDENTITY_INSERT [dbo].[usm.UserRoles] ON 
+
+INSERT [dbo].[usm.UserRoles] ([Id], [PageNameList], [CompanyId], [RoleName], [PageIds], [PrivilegeIds], [CreatedUserId], [CreatedDateTime]) VALUES (1, NULL, 1, N'Admin', N'4,1,2,3,5,6,7,8,9,10,11,12,13', NULL, 1, CAST(N'2019-03-14T14:17:17.947' AS DateTime))
+SET IDENTITY_INSERT [dbo].[usm.UserRoles] OFF

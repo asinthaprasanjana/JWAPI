@@ -1,0 +1,12 @@
+ 14 - 06 -2019  - [dbo].[wkb.ApprovalTypes]
+
+1	1	1	Purchase Order Approval	0	2019-05-20 09:38:27.923	NULL	NULL
+2	1	2	Stock Tranfer Approval	0	2019-05-17 11:58:01.110	NULL	NULL
+3	1	3	Stock Adjusment Approval	1	2019-06-03 19:25:14.987	NULL	NULL
+4	1	4	New User Creation Approval	1	2019-04-23 18:20:32.170	NULL	NULL
+5	1	5	Edit User Details Approval	1	2019-04-03 10:47:24.067	NULL	NULL
+6	1	6	Removing User Details Approval	1	2019-04-03 10:47:28.697	NULL	NULL
+7	1	7	Sales Order Quatation	1	2019-05-10 11:07:44.420	NULL	NULL
+8	1	8	Sales Order	1	2019-04-10 14:25:57.873	NULL	NULL
+9	1	9	Sales Invoice	1	2019-04-10 15:37:08.740	NULL	NULL
+NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
